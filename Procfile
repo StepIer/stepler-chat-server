@@ -1,1 +1,1 @@
-web: ./build/install/ktor-get-started-sample/bin/stepler-chat-server
+web: ./build/install/com.example.stepler-chat-server/bin/com.example.stepler-chat-server
