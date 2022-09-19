@@ -1,7 +1,7 @@
 package com.example.di.login
 
-import com.example.data.login.adapter.UserRepositoryImpl
-import com.example.domain.login.adapter.UserRepository
+import com.example.data.login.source.UserRepositoryImpl
+import com.example.domain.login.source.UserRepository
 import com.example.domain.login.usecase.AddNewUserUseCase
 import com.example.infrastructure.login.routing.LoginController
 import dagger.Module

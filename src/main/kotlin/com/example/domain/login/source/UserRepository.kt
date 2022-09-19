@@ -1,4 +1,4 @@
-package com.example.domain.login.adapter
+package com.example.domain.login.source
 
 import com.example.data.login.model.UserDataModel
 

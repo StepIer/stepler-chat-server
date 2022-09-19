@@ -1,4 +1,4 @@
-package com.example.data.login.rest
+package com.example.data.login.tables
 
 import org.jetbrains.exposed.sql.Table
 

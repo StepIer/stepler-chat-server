@@ -1,8 +1,8 @@
-package com.example.data.login.adapter
+package com.example.data.login.source
 
 import com.example.data.login.model.UserDataModel
-import com.example.data.login.rest.UsersTable
-import com.example.domain.login.adapter.UserRepository
+import com.example.data.login.tables.UsersTable
+import com.example.domain.login.source.UserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.jetbrains.exposed.sql.insert
