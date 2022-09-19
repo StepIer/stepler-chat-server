@@ -14,8 +14,8 @@ val appComponent: AppComponent = DaggerAppComponent.create()
 fun main() {
 
     ServerConfig.defaultConfig()
-//    embeddedServer(Netty, port = System.getenv("PORT")?.toInt() ?: DEFAULT_PORT) {
-    embeddedServer(Netty, port = 8080, host = "0.0.0.0") {
+    embeddedServer(Netty, port = System.getenv("PORT")?.toInt() ?: DEFAULT_PORT) {
+//    embeddedServer(Netty, port = 8080, host = "0.0.0.0") {
         configureSockets()
         configureRouting()
     }.start(wait = true)
